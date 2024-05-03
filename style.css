@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW92aWUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: radial-gradient( #0a0a0a, #1a1919);  */
+    /* background: #000; */
+    color: #fff; 
+    overflow-x: hidden;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    margin-top: 0.7em;
+    color: #e50914;
+    transform: perspective(500px) rotateX(-15deg);
+    font-size: 10em;
+  }
+  
+  .input {
+    width: 70%;
+    margin-left: 7em;
+    margin-right: 1em;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #searchBtn {
+    /* display: block; */
+    width: 100px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e50914; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  #searchBtn:hover {
+    background-color: #aa1616; 
+    border-color: #fff;
+    box-shadow: 0px 0px 5px 0px #fff;
+  }
+  
+
+  /* .searching {
+   display: flex;
+  } */
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 10px;
+    width: 200px;
+    background-color: #cfc7c7; 
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-type,
+  .card-text {
+    font-size: 14px;
+  }
+
+  
+  .year {
+    font-size: 14px;
+    color: #8d8c8c; 
+}
+
+.type {
+    font-style: italic;
+}
+
+.imdb-id {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+}
